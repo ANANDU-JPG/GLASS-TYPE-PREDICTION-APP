@@ -32,7 +32,8 @@ if st.button("Predict Glass Type"):
 
     prediction = model.predict(scaled_input)[0]
 
-    st.subheader("🧾 Prediction:")
+    st.subheader(" Prediction:")
     st.success(f"The predicted Glass Type is: **{prediction}**")
 
     
+
