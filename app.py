@@ -6,7 +6,7 @@ import joblib
 model = joblib.load("glass_model.pkl")      
 scaler = joblib.load("scaler.pkl")         
 
-st.title("🔍 Glass Type Prediction App")
+st.title(" Glass Type Prediction App")
 st.write("Enter the chemical composition to predict the glass type.")
 
 
@@ -34,4 +34,5 @@ if st.button("Predict Glass Type"):
 
     st.subheader("🧾 Prediction:")
     st.success(f"The predicted Glass Type is: **{prediction}**")
+
     
