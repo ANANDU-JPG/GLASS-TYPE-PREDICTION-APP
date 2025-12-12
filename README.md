@@ -19,7 +19,6 @@ A machine-learning powered app that predicts the type of glass based on its chem
 
 ├── app.py               
 
-├── requirements.txt     
 
 ├── README.md      
 
